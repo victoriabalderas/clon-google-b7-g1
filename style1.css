@@ -1,0 +1,133 @@
+* {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(71, 12, 127);
+}
+
+body {
+    background-color: rgba(224, 191, 246, 0.841);
+    margin: 0px;
+}
+
+nav { 
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav a {
+    color: #202124;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+
+nav ul {
+    display: flex;
+    align-items: center;
+    margin: 0px;
+}
+
+#perfil {
+    border-radius: 50%;
+    width: 35px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 62vh;
+    padding-top: 17vh;
+}
+
+article {
+    text-align: center;
+}
+
+#logo img {
+    width: 272px;
+    height: 92px;
+}
+
+#buscador {
+    border: 1px solid #ffff;
+    border-radius: 24px;
+    background-color: rgb(253, 254, 255);
+    display: flex;
+    justify-content: center;
+    padding: 10px 10px;
+    align-items: flex-end;
+    width: 561px;
+    margin: 6px; 
+}
+
+#buscador:hover {
+    background: #fff;
+    box-shadow: 0 1px 6px rgba(32, 33, 36, .28);
+    border-color: transparent;
+}
+
+#buscador input {
+    flex-grow:1;
+    border:none;
+    outline: none;
+}
+
+#botones button {
+    background-color: #e0c3eb;
+    border: 1px solid #e0c3eb;
+    color: #554a59;
+    padding: 0 16px;
+    height: 36px;
+    margin: 10px 3px;
+    border-radius: 4px ;
+}
+
+#botones button:hover {
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .1);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+}
+
+.icono-buscador{
+    display: inline-block;
+    width: 25px;
+    margin: 2px;
+}
+
+#links-footer {
+ justify-content: space-between;
+ display: flex;
+ border-top: 1px solid rgb(64, 56, 75);
+}
+
+ul{
+    padding-left: 0px;
+}
+
+footer p {
+    padding: 15px;
+    margin: 0px;
+}
+
+footer {
+    background-color:  rgb(182, 161, 210);
+    
+} 
+
+ul li {
+    display: inline; 
+    padding: 15px;
+}
+
+footer a {
+    color: #202124;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
